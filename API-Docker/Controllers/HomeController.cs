@@ -5,7 +5,7 @@ namespace API_Docker.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class HomeController : ControllerBase
+    public class HomePageController : ControllerBase
     {
     }
 }
