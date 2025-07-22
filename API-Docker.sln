@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API-Docker", "API-Docker\API-Docker.csproj", "{AC237241-652B-4289-A604-A1C3D6AD4720}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{F5BA8E79-E29E-45D0-AFC9-9C24A819CFCB}"
+	ProjectSection(SolutionItems) = preProject
+		ci-cd.yml = ci-cd.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC237241-652B-4289-A604-A1C3D6AD4720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC237241-652B-4289-A604-A1C3D6AD4720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC237241-652B-4289-A604-A1C3D6AD4720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC237241-652B-4289-A604-A1C3D6AD4720}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5BA8E79-E29E-45D0-AFC9-9C24A819CFCB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79209DD5-21F9-4A45-8619-E8D80F679302}
+	EndGlobalSection
+EndGlobal
